@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "project-thrive-aa2ed": {
+      "hosting": {
+        "offerzen": [
+          "project-thrive-aa2ed"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "project-thrive-aa2ed"
+  }
+}

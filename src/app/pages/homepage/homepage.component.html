@@ -1,0 +1,7 @@
+<div class="homepage">
+  <h1>Parent</h1>
+  <ul>
+    <li *ngFor="let name of names">{{ name }}</li>
+  </ul>
+  <app-input (newItemEvent)="addNewNames($event)"></app-input>
+</div>

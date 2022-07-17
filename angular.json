@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "offerzen:build:production",
+            "firebaseProject": "project-thrive-aa2ed",
+            "firebaseHostingSite": "project-thrive-aa2ed"
+          }
         }
       }
     }
