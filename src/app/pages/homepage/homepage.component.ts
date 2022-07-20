@@ -7,12 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
   names: string[] = [];
-
+  check: string = 'Unchecked';
   constructor() {}
 
   ngOnInit(): void {}
 
   addNewNames(newName: string) {
     this.names.push(newName);
+  }
+
+  change() {
+    this.check = 'Checked';
   }
 }

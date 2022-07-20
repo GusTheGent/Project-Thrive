@@ -4,4 +4,6 @@
     <li *ngFor="let name of names">{{ name }}</li>
   </ul>
   <app-input (newItemEvent)="addNewNames($event)"></app-input>
+  <button (click)="change()">Change 2nd child radio button</button>
+  <app-radio-button checked="{{ check }}"></app-radio-button>
 </div>
